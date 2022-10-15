@@ -221,33 +221,38 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME LONG-TERM PROJECTS THAT I HAVE WORKED / CURRENTLY WORKING ON",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/memories.png"),
+      projectName: "Reminisce",
+      projectDesc:
+        "Full stack social media application with Google authentication, pagination, comments, search and filtering capabilities",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://reminiscemern.herokuapp.com/posts"
+        },
+        {
+          name: "Visit Github Repo",
+          url: "https://github.com/catuchi/reminisce"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ideaPic.png"),
+      projectName: "Got project ideas?",
+      projectDesc: "I'm looking for next project to learn and participate!",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Contact Me",
+          url: "https://chibu-atuchi.netlify.app/#contact"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
